@@ -1,0 +1,15 @@
+{
+  "name": "sendlab",
+  "owner": { "name": "SendLab", "email": "hello@sendlab.ai" },
+  "metadata": { "description": "SendLab skills for coding agents" },
+  "plugins": [
+    {
+      "name": "sendlab",
+      "description": "Send SMS with the SendLab API: safe retries, delivery webhooks, test mode, opt-outs and provider migrations",
+      "source": "./",
+      "category": "developer-tools",
+      "homepage": "https://sendlab.ai/docs",
+      "tags": ["sms", "messaging", "webhooks", "otp", "notifications"]
+    }
+  ]
+}

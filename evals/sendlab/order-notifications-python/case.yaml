@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: order-notifications-python
+expected_outcome: |
+  A celery task that sends with a stable reference derived from the order (not regenerated per retry), retries only
+  retryable errors and timeouts, and a webhook view that verifies the Standard Webhooks signature on request.body,
+  dedupes on webhook-id, handles every message status and never moves a status backwards.

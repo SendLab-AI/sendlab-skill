@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: otp-login-node
+expected_outcome: |
+  A TypeScript module that sends an OTP through POST /v1/messages with a reference derived from the challenge,
+  creates a new challenge (and so a new reference) on resend, keeps the code out of metadata and logs, treats 200 and
+  202 as success, handles opted_out, and documents using an sl_test_ key and the simulator for tests.

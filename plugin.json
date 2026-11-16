@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sendlab",
+  "version": "0.2.0",
+  "description": "Send SMS with the SendLab API: safe retries, delivery webhooks, test mode, opt-outs and provider migrations",
+  "author": { "name": "SendLab", "email": "hello@sendlab.ai", "url": "https://sendlab.ai" },
+  "homepage": "https://sendlab.ai/docs",
+  "repository": "https://github.com/sendlab-ai/sendlab-skill",
+  "license": "MIT",
+  "keywords": ["sms", "sendlab", "messaging", "webhooks", "otp"]
+}

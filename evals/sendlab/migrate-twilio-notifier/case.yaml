@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: migrate-twilio-notifier
+expected_outcome: |
+  notify() keeps its signature and sends JSON to POST /v1/messages with from/to/body/reference only (no status
+  callback field), with a reference derived from the appointment rather than a per-attempt uuid; the status route is
+  replaced by a Standard Webhooks-verified SendLab webhook handler that maps SendLab statuses including expired,
+  unknown and canceled.
+context:
+  scaffold_script: place-files.sh
