@@ -52,7 +52,7 @@ MCP server at `https://api.sendlab.ai/mcp`. See [Connect to MCP](https://sendlab
 
 - Docs: https://sendlab.ai/docs
 - API reference (OpenAPI): https://api.sendlab.ai/openapi.json
-- Prompts for coding agents: https://sendlab.ai/docs/ai/agent-prompts
+- Agent skill docs: https://sendlab.ai/docs/ai/agent-skill
 
 ## License
 
