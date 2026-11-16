@@ -1,6 +1,6 @@
 ---
 name: sendlab
-description: Use when writing or reviewing code that sends SMS through SendLab (api.sendlab.ai), including OTP codes, reminders, order notifications, bulk sends, delivery webhooks, or migrating from Twilio, MessageMedia, Kudosity, Mobile Message or Texto. Use it whenever the user mentions SendLab or a `sl_live_`/`sl_test_` key, even for a quick send: it holds the facts a working first draft usually gets wrong (retrying without double-sending, `sent` isn't `delivered`, raw-body webhook verification, opt-out links).
+description: "Use when writing or reviewing code that sends SMS through SendLab (api.sendlab.ai), including OTP codes, reminders, order notifications, bulk sends, delivery webhooks, or migrating from Twilio, MessageMedia, Kudosity, Mobile Message or Texto. Use it whenever the user mentions SendLab or a `sl_live_`/`sl_test_` key, even for a quick send: it holds the facts a working first draft usually gets wrong (retrying without double-sending, `sent` isn't `delivered`, raw-body webhook verification, opt-out links)."
 license: MIT
 metadata:
   author: sendlab
